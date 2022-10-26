@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Dropdown</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!--==== BOOTSTRAP SELECT INCLUDE ====-->
+    <link href="assets/css/bootstrap-select.min.css" rel="stylesheet" />
+</head>
+
+<body>
+
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-sm-6 col-md-3 form-group">
+                <label>Simple Example</label>
+                <select class="selectpicker form-control" multiple data-live-search="true" data-size="4">
+                    <option>Yng Media</option>
+                    <option>Fny Digitial</option>
+                    <option>SK Digiweb</option>
+                    <option>Gomileston</option>
+                    <option>Hard Shell Pvt Ltd</option>
+                    <option>Amity Software Solution</option>
+                </select>
+            </div>
+
+            <div class="col-sm-6 col-md-3 form-group">
+                <label>Simple Example</label>
+                <select class="selectpicker form-control" multiple data-selected-text-format="count > 3">
+                    <option>Yng Media</option>
+                    <option>Fny Digitial</option>
+                    <option>SK Digiweb</option>
+                    <option>Gomileston</option>
+                    <option>Hard Shell Pvt Ltd</option>
+                    <option>Amity Software Solution</option>
+                </select>
+            </div>
+
+            <div class="col-sm-6 col-md-3 form-group">
+                <label>Simple Example</label>
+                <select class="selectpicker form-control" data-style="btn-success">
+                    <option>Yng Media</option>
+                    <option>Fny Digitial</option>
+                    <option>SK Digiweb</option>
+                    <option>Gomileston</option>
+                    <option>Hard Shell Pvt Ltd</option>
+                    <option>Amity Software Solution</option>
+                </select>
+            </div>
+
+            <div class="col-sm-6 col-md-3 form-group">
+                <label>Simple Example</label>
+                <select class="selectpicker form-control" multiple data-actions-box="true">
+                    <option>Yng Media</option>
+                    <option>Fny Digitial</option>
+                    <option>SK Digiweb</option>
+                    <option>Gomileston</option>
+                    <option>Hard Shell Pvt Ltd</option>
+                    <option>Amity Software Solution</option>
+                </select>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.js"></script>
+    <script src="assets/js/bootstrap-select.min.js"></script>
+
+
+    <script>
+        $(document).ready(function () {
+            $(".selectpicker").selectpicker();
+        })
+    </script>
+</body>
+
+</html>
