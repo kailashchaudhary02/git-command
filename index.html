@@ -9,60 +9,60 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+        ul.list-unsyled li {
+            border-bottom: 1px solid #ddd;
+            list-style-type: none;
+            padding: 5px 20px;
+        }
+
+        ul.list-unsyled {
+            max-height: 200px;
+            overflow-y: auto;
+        }
+
+        /* width */
+        .list-unsyled::-webkit-scrollbar {
+            width: 9px;
+        }
+
+        /* Track */
+        .list-unsyled::-webkit-scrollbar-track {
+            background: #f1f1f1;
+        }
+
+        /* Handle */
+        .list-unsyled::-webkit-scrollbar-thumb {
+            background: #888;
+        }
+
+        /* Handle on hover */
+        .list-unsyled::-webkit-scrollbar-thumb:hover {
+            background: red;
+        }
+    </style>
 </head>
 
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-md-3">
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/600x400/000/fff" alt="Card image"
-                        style="width:100%">
-                    <div class="card-body">
-                        <h4 class="card-title">Graphic Design</h4>
-                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer
-                        </p>
-                        <a href="#" class="btn btn-primary btn-sm stretched-link">See Profile</a>
-                    </div>
-                </div>
-            </div>
+            <div class="col-sm-4">
+                <div class="column">
+                    <ul class="list-unsyled">
+                        <li>Web Design</li>
+                        <li>Web Design</li>
+                        <li>Web Design</li>
+                        <li>Web Design</li>
+                        <li>Web Design</li>
+                        <li>Web Design</li>
+                        <li>Web Design</li>
+                        <li>Web Design</li>
+                        <li>Web Design</li>
+                        <li>Web Design</li>
+                        <li>Web Design</li>
+                        <li>Web Design</li>
 
-            <div class="col-md-3">
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/600x400/000/fff" alt="Card image"
-                        style="width:100%">
-                    <div class="card-body">
-                        <h4 class="card-title">Web Design</h4>
-                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer
-                        </p>
-                        <a href="#" class="btn btn-primary btn-sm stretched-link">See Profile</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/600x400/000/fff" alt="Card image"
-                        style="width:100%">
-                    <div class="card-body">
-                        <h4 class="card-title">Animation</h4>
-                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer
-                        </p>
-                        <a href="#" class="btn btn-primary btn-sm stretched-link">See Profile</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-md-3">
-                <div class="card">
-                    <img class="card-img-top" src="https://dummyimage.com/600x400/000/fff" alt="Card image"
-                        style="width:100%">
-                    <div class="card-body">
-                        <h4 class="card-title">Web Development</h4>
-                        <p class="card-text">Some example text some example text. John Doe is an architect and engineer
-                        </p>
-                        <a href="#" class="btn btn-primary btn-sm stretched-link">See Profile</a>
-                    </div>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -70,4 +70,4 @@
 
 </body>
 
-</html>]
+</html>
